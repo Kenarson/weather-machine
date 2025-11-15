@@ -4,6 +4,7 @@ import './App.css'
 import Search from './components/Search'
 import WeatherInfo from './components/WeatherInfo'
 import WeatherApp from './components/WeatherApp';
+import About from './components/About'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="App">
         <WeatherApp />
       </div>
-      
+      <About />
       
     </>
   )
